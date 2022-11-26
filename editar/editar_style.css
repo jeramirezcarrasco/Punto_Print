@@ -1,0 +1,32 @@
+.reqq{
+    display: inline-block;
+    color:red;
+
+}
+
+.Productos{
+    margin-top:1%;
+    margin-bottom:2%;
+    border:2px solid;
+    padding: 20px;
+    background-color: rgb(202, 207, 211);
+}
+
+.section_Header{
+    background-color:rgb(223, 136, 110);
+}
+
+.section{
+    background-color:rgb(224, 215, 215);
+}
+
+
+.main_body{
+    background-color:rgb(224, 215, 215);
+}
+
+.images_table{
+    margin: 1%;
+    width: 30% !important;
+}
+

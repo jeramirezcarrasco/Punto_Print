@@ -1,0 +1,57 @@
+.referencias{
+    display: flex;
+    justify-content: center;
+    border: 8px solid black;
+    margin: 0.5%;
+    padding: 2%;
+    background-color: rgb(202, 207, 211);
+    align-items: center;
+    justify-content: center;
+    
+}
+.disenos{
+    display: flex;
+    justify-content: center;
+    border: 8px solid black;
+    margin: 0.5%;
+    padding: 2%;
+    background-color: rgb(202, 207, 211);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.move_button{
+    height: 20%;
+}
+
+.images{
+    height: auto;
+    width: auto;
+    max-height: 70%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.ref_class{
+
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin: 10px 10px;
+    /* justify-content: center; */
+}
+.dis_class{
+
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin: 10px 10px;
+    /* justify-content: center; */
+}
+
+.file_name{
+    border: 5px solid;
+    background-color:rgb(246, 251, 255);
+    
+}
