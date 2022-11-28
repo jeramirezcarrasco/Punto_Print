@@ -23,7 +23,7 @@ function print_pantalla_Navbar()
             </li>
         </ul>
     </nav>
-    <br>
+    
     
     _END;
 }
@@ -65,7 +65,7 @@ function print_Navbar()
             <a href="../login/login.php"><button type="button" class="btn btn-primary btn-small btn-nav">LOGIN/LOGOUT</button></a>
         </li>
     </nav>
-    <br>
+    
     
     _END;
 }
@@ -112,7 +112,7 @@ function print_Restuarar_Navbar()
             <a href="../login/login.php"><button type="button" class="btn btn-primary btn-small btn-nav">LOGIN/LOGOUT</button></a>
         </li>
     </nav>
-    <br>
+    
     
     _END;
 }
@@ -149,7 +149,7 @@ function print_Finalizado_Navbar()
             <a href="../login/login.php"><button type="button" class="btn btn-primary btn-small btn-nav">LOGIN/LOGOUT</button></a>
         </li>
     </nav>
-    <br>
+    
     
     _END;
 }

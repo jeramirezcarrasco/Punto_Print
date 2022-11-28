@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . '../../editar/borrar.php';
-require __DIR__ . '../../utility.php';
+// require __DIR__ . '../../utility.php';
 require __DIR__ . '../../reciclaje/restaurar.php';
 
 $target_dir_referencias = "../referencias/";

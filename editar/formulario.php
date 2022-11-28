@@ -1,6 +1,17 @@
 <?php
 require __DIR__ . '../../utility.php';
 
+session_start();
+
+if(!Is_Session_Active())
+{
+    header("Location: ../login/login.php");
+}
+else if($_SESSION['permiso'] <= 2)
+{
+    header("Location: ../list_pantalla/list_pantalla_Productos.php");
+}
+
 $host='localhost:3306';
 $user='root';
 $password='mysql';
