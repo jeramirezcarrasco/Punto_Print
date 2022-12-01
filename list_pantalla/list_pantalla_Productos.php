@@ -44,7 +44,7 @@ print_HTML($table_productos, $table_Score);
 
 function empleados_Score($connection)
 {
-    $query ="SELECT * FROM empleados "; 
+    $query ="SELECT * FROM empleados WHERE Permiso < 4"; 
     $result = $connection->query($query);
     if(!$result) {
         die('Could not query: '. mysqli_error($connection));
